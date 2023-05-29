@@ -58,7 +58,12 @@
     margin-top: 3%;
 }
 
-.title,
+.title {
+    margin-top: 3%;
+
+    font-family: "Source Code Pro";
+}
+
 .main-content {
     margin-top: 3%;
     font-size: large;
