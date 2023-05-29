@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container title text-center">
+        <h1>About me and my journey</h1>
+
+        <div class="container main-content ">
+            <div class="row">
+                <div class="about-content">
+                    <img src="{% static 'images/vlady_cv_photo.jpg'%}" alt="">
+                 <div>
+                     <p>Hello, my name is Vladimir Stoyanov, and I'm a Junior Python Developer.
+                         My journey into the world of technology began in 2021 when I decided to pursue my childhood dream to become Software Engineer.
+                         For the past two years, I have been dedicated to learning Python through the SoftUni program,
+                         balancing my studies with a full-time job. During my free time,
+                         I indulge in photography as a hobby and enjoy cycling with friends.
+                         I am excited to bring my passion for programming and my desire to learn to a new role as a Python Developer.
+                     </p>
+                     <div class="hobbies">
+                        <h2>My Hobbies</h2>
+                         <p>
+                             I have a passion for photography. I love to take photos of nature, the city, and my friends.
+                         </p>
+                         <div>
+                             <img src="{% static 'images/IMG_9953.jpg' %}" alt="">
+                             <img src="{% static 'images/IMG_9652.jpg' %}" alt="">
+                             <img src="{% static 'images/IMG_9803.jpg'%}" alt="">
+                         </div>
+                         <p>
+                             When I have free time, I love riding a bicycle in the city, walking in the mountain, and hanging out with friends.
+                         </p>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container links text-center">
+    <a href="https://www.linkedin.com/in/vladimir-stoqnov-7989b1242/">Linkedin</a>
+    <a href="https://github.com/VladimirStoqnov">GitHub</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container certificate-container text-center">
+        <h1>Add Certificate</h1>
+        <form class="add-certificate" action="{% url 'add_certificate' %}" method="post" enctype="multipart/form-data">
+
+            {{ form.as_p }}
+            {% csrf_token %}
+            <button>Add</button>
+        </form>
+    </div>
+{% endblock %}
