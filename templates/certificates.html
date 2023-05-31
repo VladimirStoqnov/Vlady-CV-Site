@@ -1,19 +1,20 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div class="container overflow-hidden">
-        <div class="row text-center">
-            {% for photo in object_list %}
-                <div class="col-8 col-xl-3 text-center certificate-box">
-                    <p>
-                        <img src="../media/{{ photo.photo }}" alt="">
-                    </p>
-                </div>
-                {% if forloop.counter|divisibleby:4 %}
-                    </div>
-                    <div class="row">
-                {% endif %}
-            {% endfor %}
+
+
+    <div class="row justify-content-center">
+        {% for photo in object_list %}
+            <div class="col-xl-3 certificate-box text-center">
+
+                    <img src="../media/{{ photo.photo }}" alt="certificate photo">
+
             </div>
+            {% if forloop.counter|divisibleby:4 %}
+                <div class="row"></div>
+            {% endif %}
+        {% endfor %}
+
     </div>
+
 
 {% endblock %}
