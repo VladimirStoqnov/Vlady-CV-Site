@@ -139,4 +139,6 @@ MEDIA_ROOT = BASE_DIR / 'mediafiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SECURE_PROXY_SSL_HEADER = ('HTTPS_X_FORWARDED_PROTO', 'https')
 SESSION_COOKIE_SECURE = True
+CSRF_TRUSTED_ORIGINS = ['https://learnitcodeit.org']
+
 

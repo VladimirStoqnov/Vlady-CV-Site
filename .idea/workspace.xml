@@ -88,7 +88,7 @@
       <workItem from="1685376717876" duration="11325000" />
       <workItem from="1685553243661" duration="4831000" />
       <workItem from="1685854830977" duration="3389000" />
-      <workItem from="1686149668789" duration="1969000" />
+      <workItem from="1686149668789" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -167,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686166800225</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding skills">
+      <created>1686167440293</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686167440293</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding skills">
+      <created>1686167832975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686167832975</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
