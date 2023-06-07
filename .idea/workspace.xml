@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding skills">
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding trusted origins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,7 @@
       <workItem from="1685376717876" duration="11325000" />
       <workItem from="1685553243661" duration="4831000" />
       <workItem from="1685854830977" duration="3389000" />
-      <workItem from="1686149668789" duration="2922000" />
+      <workItem from="1686149668789" duration="4339000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686167832975</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding trusted origins">
+      <created>1686168471870</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686168471870</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +210,7 @@
     <MESSAGE value="Adding new photo and editing css for certificate photos" />
     <MESSAGE value="Changing css and certificate image arrangement" />
     <MESSAGE value="Adding skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding skills" />
+    <MESSAGE value="Adding trusted origins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding trusted origins" />
   </component>
 </project>
