@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding skills" />
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding skills">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +87,7 @@
       <workItem from="1685200514336" duration="6571000" />
       <workItem from="1685376717876" duration="11325000" />
       <workItem from="1685553243661" duration="4831000" />
-      <workItem from="1685854830977" duration="1662000" />
+      <workItem from="1685854830977" duration="3389000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -129,7 +131,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685855900796</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding skills">
+      <created>1685857445665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685857445665</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding skills">
+      <created>1685857465223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685857465223</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding skills">
+      <created>1685857482043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685857482043</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
