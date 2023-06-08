@@ -88,8 +88,8 @@
 }
 
 .links a {
-    margin-left: 2%;
     text-decoration: none;
+    border-radius: 20px;
 }
 
 .links a:hover {
@@ -108,4 +108,19 @@
 
 .certificates-content img {
     margin: 10px auto;
+}
+
+.linkedin-logo img {
+    height: 100px;
+    width: 180px;
+}
+
+.github-logo img {
+    height: 60px;
+    width: 140px;
+}
+
+.gmail-logo img {
+    height: 60px;
+    width: 140px;
 }
