@@ -1,29 +1,29 @@
 {% extends 'base.html' %}
 {% block content %}
 
-{#    <div class="row justify-content-center certificate-box">#}
-{#    <h1 class="certificate-title text-center">Certificates</h1>#}
-{#        <div class="certificate-container text-center">#}
-{#            <img src="{% static 'images/Programming_Basics_-_May_2021_-_Certificate.jpeg' %}" alt="">#}
-{#            <img src="{% static 'images/Programming_Fundamentals_with_Python_-_September_2021_-_Certificate.jpeg' %}" alt="">#}
-{#            <img src="{% static 'images/Python_Advanced_-_January_2022_-_Certificate.jpeg' %}" alt="">#}
-{#            <img src="{% static 'images/Python_OOP_-_February_2022_-_Certificate.jpeg' %}" alt="">#}
-{#            <br>#}
-{#            <img src="{% static 'images/Python_Web_Basics_-_September_2022_-_Certificate.jpeg' %}" alt="">#}
-{#            <img src="{% static 'images/Python_Web_Framework_-_November_2022_-_Certificate.jpeg' %}" alt="">#}
-{#        </div>#}
-{##}
-{#    </div>#}
     <div class="row justify-content-center certificate-box">
     <h1 class="certificate-title text-center">Certificates</h1>
-        {% for photo in object_list %}
-            <img src="../media/{{ photo.photo }}" alt="certificate photo">
-            {% if forloop.counter|divisibleby:4 %}
-                <div class="row"></div>
-            {% endif %}
-        {% endfor %}
+        <div class="certificate-container text-center">
+            <img src="{% static 'images/Programming_Basics_-_May_2021_-_Certificate.jpeg' %}" alt="">
+            <img src="{% static 'images/Programming_Fundamentals_with_Python_-_September_2021_-_Certificate.jpeg' %}" alt="">
+            <img src="{% static 'images/Python_Advanced_-_January_2022_-_Certificate.jpeg' %}" alt="">
+            <img src="{% static 'images/Python_OOP_-_February_2022_-_Certificate.jpeg' %}" alt="">
+            <br>
+            <img src="{% static 'images/Python_Web_Basics_-_September_2022_-_Certificate.jpeg' %}" alt="">
+            <img src="{% static 'images/Python_Web_Framework_-_November_2022_-_Certificate.jpeg' %}" alt="">
+        </div>
 
     </div>
+{#    <div class="row justify-content-center certificate-box">#}
+{#    <h1 class="certificate-title text-center">Certificates</h1>#}
+{#        {% for photo in object_list %}#}
+{#            <img src="../media/{{ photo.photo }}" alt="certificate photo">#}
+{#            {% if forloop.counter|divisibleby:4 %}#}
+{#                <div class="row"></div>#}
+{#            {% endif %}#}
+{#        {% endfor %}#}
+{##}
+{#    </div>#}
 
 
 {% endblock %}
