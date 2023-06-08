@@ -7,7 +7,7 @@
     <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding LinkedIn, GitHub and Gmail links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticfiles/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/knowledge.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <workItem from="1685376717876" duration="11325000" />
       <workItem from="1685553243661" duration="4831000" />
       <workItem from="1685854830977" duration="3389000" />
-      <workItem from="1686149668789" duration="15815000" />
+      <workItem from="1686149668789" duration="16906000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -272,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686241599802</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding LinkedIn, GitHub and Gmail links">
+      <created>1686255548946</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686255548946</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Adding LinkedIn, GitHub and Gmail links">
+      <created>1686255560794</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686255560794</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
