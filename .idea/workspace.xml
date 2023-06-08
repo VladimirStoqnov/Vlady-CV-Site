@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding trusted origins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/Programming_Basics_-_May_2021_-_Certificate.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/Programming_Basics_-_May_2021_-_Certificate.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/Programming_Fundamentals_with_Python_-_September_2021_-_Certificate.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/Programming_Fundamentals_with_Python_-_September_2021_-_Certificate.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/Python_Advanced_-_January_2022_-_Certificate.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/Python_Advanced_-_January_2022_-_Certificate.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/Python_OOP_-_February_2022_-_Certificate.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/Python_OOP_-_February_2022_-_Certificate.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/Python_Web_Basics_-_September_2022_-_Certificate.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/Python_Web_Basics_-_September_2022_-_Certificate.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mediafiles/Python_Web_Framework_-_November_2022_-_Certificate.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/Python_Web_Framework_-_November_2022_-_Certificate.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certificates.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,7 @@
       <workItem from="1685376717876" duration="11325000" />
       <workItem from="1685553243661" duration="4831000" />
       <workItem from="1685854830977" duration="3389000" />
-      <workItem from="1686149668789" duration="5475000" />
+      <workItem from="1686149668789" duration="6364000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -221,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686171094068</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Adding trusted origins">
+      <created>1686195165842</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686195165842</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
