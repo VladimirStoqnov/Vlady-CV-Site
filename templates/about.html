@@ -7,45 +7,58 @@
         <div class="container title">
             <div class="row">
                 <div class="about-content">
-                    <img src="{% static 'images/vlady_cv_photo.jpg'%}" alt="">
-                 <div>
-                     <p>Hello, my name is Vladimir Stoyanov, and I'm a Junior Python Developer.
-                         My journey into the world of technology began in 2021 when I decided to pursue my childhood dream to become Software Engineer.
-                         For the past two years, I have been dedicated to learning Python through the SoftUni program,
-                         balancing my studies with a full-time job. During my free time,
-                         I indulge in photography as a hobby and enjoy cycling with friends.
-                         I am excited to bring my passion for programming and my desire to learn to a new role as a Python Developer.
-                     </p>
-                     <div class="hobbies">
-                        <h2>My Hobbies</h2>
-                         <p>
-                             I have a passion for photography. I love to take photos of nature, the city, and my friends.
-                         </p>
-                         <div class="about-image">
-                             <img src="{% static 'images/IMG_9953.jpg' %}" alt="">
-                             <img src="{% static 'images/IMG_9652.jpg' %}" alt="">
-                             <img src="{% static 'images/IMG_9803.jpg'%}" alt="">
-                         </div>
-                         <p>
-                             When I have free time, I love riding a bicycle in the city, walking in the mountain, and hanging out with friends.
-                         </p>
-                     </div>
-                 </div>
+                    <img src="{% static 'images/vlady_cv_photo.jpg' %}" alt="">
+                    <div>
+                        <p>Hello, my name is Vladimir Stoyanov, and I'm a Junior Python Developer.
+                            My journey into the world of technology began in 2021 when I decided to pursue my childhood
+                            dream to become Software Engineer.
+                            For the past two years, I have been dedicated to learning Python through the SoftUni
+                            program,
+                            balancing my studies with a full-time job. During my free time,
+                            I indulge in photography as a hobby and enjoy cycling with friends.
+                            I am excited to bring my passion for programming and my desire to learn to a new role as a
+                            Python Developer.
+                        </p>
+                        <div class="hobbies">
+                            <h2>My Hobbies</h2>
+                            <p>
+                                I have a passion for photography. I love to take photos of nature, the city, and my
+                                friends.
+                            </p>
+                            <div class="about-image">
+                                <img src="{% static 'images/IMG_9953.jpg' %}" alt="">
+                                <img src="{% static 'images/IMG_9652.jpg' %}" alt="">
+                                <img src="{% static 'images/IMG_9803.jpg' %}" alt="">
+                            </div>
+                            <p>
+                                When I have free time, I love riding a bicycle in the city, walking in the mountain, and
+                                hanging out with friends.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container links text-center">
-    <h1 class="title text-center" >Contacts</h1>
-    <a class="linkedin-logo" href="https://www.linkedin.com/in/vladimir-stoqnov-7989b1242/">
-        <img src="{% static 'images/LinkedIn_logo.png' %}" alt="Linkedin image">
-    </a>
-    <a class="github-logo" href="https://github.com/VladimirStoqnov">
-        <img src="{% static 'images/Github-logo.png.png' %}" alt="Github image">
-    </a>
-    <a class="gmail-logo" href="mailto:vladimirstoqnov7@gmail.com">
-        <img src="{% static 'images/gmail-logo.png' %}" alt="gmail image">
-    </a>
-</div>
+    <div class="container links text-center">
+        <h1 class="title text-center">Contacts</h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-3">
+                <a class="linkedin-logo" href="https://www.linkedin.com/in/vladimir-stoqnov-7989b1242/">
+                    <img src="{% static 'images/linkedin-ar21.svg' %}" alt="Linkedin image">
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a class="github-logo" href="https://github.com/VladimirStoqnov">
+                    <img src="{% static 'images/Github-logo.png.png' %}" alt="Github image">
+                </a>
+            </div>
+            <div class="col-lg-3">
+                <a class="gmail-logo" href="mailto:vladimirstoqnov7@gmail.com">
+                    <img src="{% static 'images/gmail-logo.png' %}" alt="gmail image">
+                </a>
+            </div>
+        </div>
+    </div>
 
 {% endblock %}
