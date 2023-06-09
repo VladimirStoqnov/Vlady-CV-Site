@@ -92,6 +92,10 @@
     border-radius: 20px;
 }
 
+.links-title h1{
+    margin-bottom: 50px;
+}
+
 .links a:hover {
     color: red;
 }
@@ -124,3 +128,4 @@
     height: 60px;
     width: 140px;
 }
+
