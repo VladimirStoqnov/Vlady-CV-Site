@@ -71,6 +71,11 @@
     .knw-content div {
         margin-left: 0;
     }
+
+    .knw-content li {
+        margin-right: 32px;
+    }
+
     .img-con {
         background-image: none;
     }

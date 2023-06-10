@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Editing responsiveness ot knowledge windows">
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Css updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staticfiles/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/css/intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/knowledge.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/knowledge.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1685376717876" duration="11325000" />
       <workItem from="1685553243661" duration="4831000" />
       <workItem from="1685854830977" duration="3389000" />
-      <workItem from="1686149668789" duration="21812000" />
+      <workItem from="1686149668789" duration="22824000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -300,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686325503406</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Css updates">
+      <created>1686389908327</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686389908327</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +333,7 @@
     <MESSAGE value="Adding new background image" />
     <MESSAGE value="Adding LinkedIn, GitHub and Gmail links" />
     <MESSAGE value="Editing responsiveness ot knowledge windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing responsiveness ot knowledge windows" />
+    <MESSAGE value="Css updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css updates" />
   </component>
 </project>
