@@ -21,7 +21,6 @@
 .knw-content div li {
     list-style-type: none;
     margin-top: 11px;
-    font-size: 22px;
 }
 
 .links-btn a:hover {
@@ -69,6 +68,9 @@
 }
 
 @media (min-width: 0px) and (max-width: 1115px) {
+    .knw-content div {
+        margin-left: 0;
+    }
     .img-con {
         background-image: none;
     }
