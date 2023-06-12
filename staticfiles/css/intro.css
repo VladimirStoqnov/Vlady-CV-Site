@@ -45,7 +45,7 @@
 
 .add-certificate {
     margin-top: 5%;
-    margin-bottom: 10%
+    margin-bottom: 10%;
 }
 
 .certificate-container h1 {
@@ -126,9 +126,17 @@
     width: 140px;
 }
 
+.linkedin-logo:hover {
+    opacity: 0.4;
+}
+
 .github-logo img {
     height: 60px;
     width: 140px;
+}
+
+.github-logo:hover {
+    opacity: 0.4;
 }
 
 .gmail-logo img {
@@ -136,3 +144,14 @@
     width: 140px;
 }
 
+.gmail-logo:hover {
+    opacity: 0.4;
+}
+
+.cv-logo img {
+   height: 50px;
+}
+
+.cv-logo:hover {
+    opacity: 0.4;
+}
