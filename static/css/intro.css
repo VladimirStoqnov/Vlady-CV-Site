@@ -28,8 +28,8 @@
 }
 
 .certificate-box img {
-    height: 400px;
-    width: 300px;
+    height: 330px;
+    width: auto;
     margin-top: 1.4%;
 }
 
@@ -117,8 +117,12 @@
     margin-top: 10px;
 }
 
-.certificates-content img {
-    margin: 10px auto;
+.certificate-container img {
+    margin: 20px 0 20px;
+}
+
+.certificate-container img:hover {
+    opacity: 0.3;
 }
 
 .linkedin-logo img {
@@ -155,3 +159,23 @@
 .cv-logo:hover {
     opacity: 0.4;
 }
+
+.cer-details img {
+    height: 700px;
+    width: auto;
+    margin: 50px 0 30px;
+}
+
+.details-btn a {
+    border: none;
+    margin-bottom: 20px;
+    color: red;
+}
+
+@media screen and (max-width:1024px){
+  img.responsive {
+      height: 500px;
+      width: auto;
+  }
+}
+

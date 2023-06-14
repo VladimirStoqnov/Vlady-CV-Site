@@ -1,6 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views import generic as views
-
 from vlady_cv.common.models import Certificate
 
 
@@ -23,6 +22,16 @@ class Knowledge(views.ListView):
 class About(views.ListView):
     queryset = []
     template_name = 'about.html'
+
+
+class DetailsCertificate(views.DetailView):
+    model = Certificate
+    queryset = Certificate.objects.all()
+    template_name = 'certificate_details.html'
+
+    def get_object(self, queryset=None):
+        pk = self.kwargs['pk']
+        return self.model.objects.get(pk=pk)
 
 
 class AddCertificate(views.CreateView):
