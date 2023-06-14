@@ -170,6 +170,10 @@
     height: 50px;
 }
 
+.details-btn img:hover {
+    opacity: 0.3;
+}
+
 @media screen and (max-width:1024px){
   img.responsive {
       height: 500px;

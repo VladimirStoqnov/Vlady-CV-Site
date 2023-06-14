@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding certificate details view">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Css update">
       <change beforePath="$PROJECT_DIR$/static/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/intro.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/certificate_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certificate_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
       <workItem from="1686675693677" duration="36000" />
       <workItem from="1686683881827" duration="1601000" />
       <workItem from="1686712558337" duration="2986000" />
-      <workItem from="1686720089734" duration="756000" />
+      <workItem from="1686720089734" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -342,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686714597646</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Css update">
+      <created>1686720970454</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686720970454</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +377,7 @@
     <MESSAGE value="Css updates" />
     <MESSAGE value="Adding download cv button with cv logo" />
     <MESSAGE value="Adding certificate details view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding certificate details view" />
+    <MESSAGE value="Css update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Css update" />
   </component>
 </project>
