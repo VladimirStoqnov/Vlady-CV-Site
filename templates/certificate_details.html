@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
     <div>
         <form action="{% url 'details' pk=certificate.pk %}" method="post">
@@ -6,7 +7,9 @@
                 <img class="responsive" src="{{ certificate.photo.url }}" alt="">
             </div>
             <div class="details-btn text-center" >
-                <a class="btn btn-outline-success" href="{% url 'certificates' %}">Close</a>
+                <a href="{% url 'certificates' %}">
+                    <img src="{% static 'images/close-logo.png' %}" alt="">
+                </a>
             </div>
         </form>
     </div>

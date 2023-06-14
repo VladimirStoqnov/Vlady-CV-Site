@@ -4,40 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding download cv button with cv logo">
-      <change afterPath="$PROJECT_DIR$/templates/certificate_details.html" afterDir="false" />
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding certificate details view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/css/intro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Certificate.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Classroom.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Cv-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Github-logo.png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/IMG_9652.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/IMG_9803.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/IMG_9953.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/LinkedIn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/LinkedIn_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Programming_Basics_-_May_2021_-_Certificate.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Programming_Fundamentals_with_Python_-_September_2021_-_Certificate.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Python_Advanced_-_January_2022_-_Certificate.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Python_OOP_-_February_2022_-_Certificate.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Python_Web_Basics_-_September_2022_-_Certificate.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/Python_Web_Framework_-_November_2022_-_Certificate.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/VladyCV.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/education.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/gmail-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/korean-school.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/linkedin-ar21.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/peakpx1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/prod12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/vizitka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staticfiles/images/vlady_cv_photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certificates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlady_cv/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlady_cv/common/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlady_cv/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlady_cv/common/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlady_cv/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlady_cv/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/certificate_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/certificate_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +101,8 @@
       <workItem from="1686669271522" duration="5695000" />
       <workItem from="1686675693677" duration="36000" />
       <workItem from="1686683881827" duration="1601000" />
-      <workItem from="1686712558337" duration="1517000" />
+      <workItem from="1686712558337" duration="2986000" />
+      <workItem from="1686720089734" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -357,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686584018307</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Adding certificate details view">
+      <created>1686714526712</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686714526712</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Adding certificate details view">
+      <created>1686714597646</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686714597646</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +371,7 @@
     <MESSAGE value="Editing responsiveness ot knowledge windows" />
     <MESSAGE value="Css updates" />
     <MESSAGE value="Adding download cv button with cv logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding download cv button with cv logo" />
+    <MESSAGE value="Adding certificate details view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding certificate details view" />
   </component>
 </project>
