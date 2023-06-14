@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding Staticfiles Root">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding Staticfiles Root" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +101,7 @@
       <workItem from="1686675693677" duration="36000" />
       <workItem from="1686683881827" duration="1601000" />
       <workItem from="1686712558337" duration="2986000" />
-      <workItem from="1686720089734" duration="4850000" />
+      <workItem from="1686720089734" duration="5926000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -364,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686725379822</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Adding Staticfiles Root">
+      <created>1686729756008</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686729756008</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
