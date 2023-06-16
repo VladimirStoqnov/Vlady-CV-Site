@@ -35,7 +35,7 @@ class DetailsCertificate(views.DetailView):
         return self.model.objects.get(pk=pk)
 
 
-class AddCertificate(LoginRequiredMixin, UserPassesTestMixin, views.CreateView):
+class AddCertificate(UserPassesTestMixin, views.CreateView):
     template_name = 'add_certificate.html'
     model = Certificate
     fields = '__all__'
