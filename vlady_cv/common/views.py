@@ -1,4 +1,5 @@
-from django.shortcuts import render, get_object_or_404
+from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.shortcuts import redirect
 from django.views import generic as views
 from vlady_cv.common.models import Certificate
 
@@ -34,9 +35,16 @@ class DetailsCertificate(views.DetailView):
         return self.model.objects.get(pk=pk)
 
 
-class AddCertificate(views.CreateView):
+class AddCertificate(LoginRequiredMixin, UserPassesTestMixin, views.CreateView):
     template_name = 'add_certificate.html'
     model = Certificate
     fields = '__all__'
 
     success_url = '/certificates/'
+
+    def test_func(self):
+        return self.request.user.is_superuser
+
+    def handle_no_permission(self):
+        return redirect('index')  # Replace 'index' with your index URL name or path
+
