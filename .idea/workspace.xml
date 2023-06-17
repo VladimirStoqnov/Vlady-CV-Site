@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Correction">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding favicon">
+      <change beforePath="$PROJECT_DIR$/static/images/Github-logo.png.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/Github-logo.png.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/IMG_9652.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/IMG_9652.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/IMG_9803.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/IMG_9803.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/IMG_9953.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/IMG_9953.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/LinkedIn_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/LinkedIn_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/education.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/education.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/gmail-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/gmail-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/prod12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/prod12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/vlady_cv_photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/vlady_cv_photo.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/vlady/PycharmProjects/vlady_cv",
+    "last_opened_file_path": "D:/vlady/PycharmProjects/vlady_cv/static/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vlady\PycharmProjects\vlady_cv\static\images" />
       <recent name="D:\vlady\PycharmProjects\vlady_cv\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -112,6 +121,7 @@
       <workItem from="1686829568006" duration="1629000" />
       <workItem from="1686929895431" duration="3450000" />
       <workItem from="1686933823354" duration="1013000" />
+      <workItem from="1686983727862" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -414,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686932429483</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Adding favicon">
+      <created>1686983853056</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1686983853056</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,6 +464,7 @@
     <MESSAGE value="Css update" />
     <MESSAGE value="Adding Staticfiles Root" />
     <MESSAGE value="Correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction" />
+    <MESSAGE value="Adding favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding favicon" />
   </component>
 </project>
