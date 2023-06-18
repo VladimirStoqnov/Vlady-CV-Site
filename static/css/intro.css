@@ -92,6 +92,12 @@
     color: rgba(93, 88, 88, 0.73);
 }
 
+.login-title {
+    margin-bottom: 2%;
+    font-family: "Source Code Pro";
+    color: rgba(93, 88, 88, 0.73);
+}
+
 
 .links {
     margin-top: 3%;
@@ -179,4 +185,22 @@
       height: 500px;
       width: auto;
   }
+}
+
+.login-container {
+    margin: 10% 0 20%;
+}
+
+.login-container button {
+    padding: 1px 20px;
+    border-radius: 6px;
+    margin-top: 1%;
+}
+
+.login-container button:hover {
+    opacity: 0.3;
+}
+
+.login-container form {
+    margin-top: 2%;
 }

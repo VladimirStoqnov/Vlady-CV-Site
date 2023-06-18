@@ -1,4 +1,5 @@
-from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.contrib.auth.mixins import UserPassesTestMixin
+from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import redirect
 from django.views import generic as views
 from vlady_cv.common.models import Certificate
@@ -7,6 +8,15 @@ from vlady_cv.common.models import Certificate
 class Index(views.ListView):
     queryset = []
     template_name = 'intro.html'
+
+
+class Login(LoginView):
+
+    template_name = 'login.html'
+
+
+class Logout(LogoutView):
+    template_name = 'logout.html'
 
 
 class Certificates(views.ListView):
