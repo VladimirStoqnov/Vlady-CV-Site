@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Compressing photos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="117200bd-1525-4171-9feb-4390f0dff0c8" name="Changes" comment="Adding login and logout buttons" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/test/Vlady-CV-Site",
+    "last_opened_file_path": "D:/vlady/PycharmProjects/vlady_cv/templates",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vlady\PycharmProjects\vlady_cv\templates" />
       <recent name="D:\vlady\PycharmProjects\vlady_cv\static\images" />
       <recent name="D:\vlady\PycharmProjects\vlady_cv\static" />
     </key>
@@ -115,6 +114,7 @@
       <workItem from="1686933823354" duration="1013000" />
       <workItem from="1686983727862" duration="2511000" />
       <workItem from="1687101366508" duration="18000" />
+      <workItem from="1687119017398" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Knowledge Title">
       <created>1685389849824</created>
@@ -445,7 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686989122586</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Adding media files">
+      <created>1687119048309</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1687119048309</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Adding login and logout buttons">
+      <created>1687119609510</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1687119609510</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +494,8 @@
     <MESSAGE value="Correction" />
     <MESSAGE value="Adding favicon" />
     <MESSAGE value="Compressing photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compressing photos" />
+    <MESSAGE value="Adding media files" />
+    <MESSAGE value="Adding login and logout buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding login and logout buttons" />
   </component>
 </project>

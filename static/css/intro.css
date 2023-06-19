@@ -41,7 +41,7 @@
 
 .add-certificate {
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 37%;
 }
 
 .certificate-container h1 {
@@ -94,6 +94,12 @@
 
 .login-title {
     margin-bottom: 2%;
+    font-family: "Source Code Pro";
+    color: rgba(93, 88, 88, 0.73);
+}
+
+.certificate-text {
+    margin-bottom: 38%;
     font-family: "Source Code Pro";
     color: rgba(93, 88, 88, 0.73);
 }
