@@ -27,7 +27,6 @@
                 <a class="btn btn-outline-success" href="{% url 'knowledge' %}">Knowledge</a>
                 <a class="btn btn-outline-success" href="{% url 'about' %}">About</a>
                 {% if user.is_authenticated %}
-                    <a class="btn btn-outline-success" href="{% url 'add_certificate' %}">Add Certificate</a>
                     <a class="btn btn-outline-success" href="{% url 'logout' %}">Logout</a>
                 {% else %}
                     <a class="btn btn-outline-success" href="{% url 'login' %}">Login</a>
